@@ -24,7 +24,7 @@ book.appendChild(introPage);
 pages.push(introPage);
 
 const images = [];
-for (let i = 1; i <= 20; i++) { //Chỉnh số lượng ảnh ở đây
+for (let i = 1; i <= 20; i++) { 130
   images.push(`./style/image/Anh (${i}).jpg`);
 }
 
@@ -135,4 +135,5 @@ pages.forEach((page) => {
     if (diff < -30) flipForward();
     else if (diff > 30) flipBackward();
   });
+
 });
